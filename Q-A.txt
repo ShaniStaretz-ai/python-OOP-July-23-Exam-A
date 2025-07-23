@@ -1,0 +1,65 @@
+Q1. Init functions:
+a
+Q2. Diff StaticMethod VS @classMethod:
+b
+Q3.__str__:
+b
+Q4. == on 2 instances without define eq:
+c
+Q5. To make class to be iterator:
+b.
+Q6. What is hash and what role fills:
+b, creates number for the object, to prevent duplications.
+Q7.__add__:
+b
+Q8.
+c, cannot be an object as a key
+Q9. Advantage of ABC:
+c, sometimes provide interface for classes that inherit from it. But basically, cannot create an instance from it
+Q10. Create instance from ASC without implement function:
+c
+Q11. result of inherit ABC without implement method:
+b
+Q12. Threads access the same resource without right sync logic:
+c
+Q13. Args VS kwargs:
+c, args recognize and collect params to a list,and kwargs to dictionary
+Q14. Method __hash__:
+b, is the most correct answer, but also promises uniqueness in the structure
+Q15. GIL:
+c
+Q16. Advantage logging Vs print:
+c
+Q17. Try:
+        result = 10 / 0
+    except ValueError:
+        print("Value error")
+    finally:
+        print("Done")
+c. is the most correct answer, depends on race condition, throws exception ZeroDivisionError first and then finished with "done"
+Q18. Recognize high memory usage:
+c, using memory_profiler
+Q19. Cycle reference:
+b
+Q20.
+A
+Q21. import functions, when needed
+b
+Q22. Reference Count
+b, when object is pointed in the memory
+Q3. Weak Reference:
+b
+Q24. advantage of __private:
+c
+Q25. Multiprocessing better than threads:
+c
+
+
+
+
+
+
+
+
+
+
